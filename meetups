@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Connected Humber | Connected Humber</title>
+    <title>Meetups | Connected Humber</title>
     <meta name="generator" content="GravCMS" />
 <meta name="description" content="Building an open IoT network for the Humber region" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="icon" type="image/png" href="/user/themes/antimatter/images/favicon.png" />
-    <link rel="canonical" href="https://www.connectedhumber.org" />
+    <link rel="canonical" href="https://www.connectedhumber.org/meetups" />
 
                                                     
                         <link href="/user/themes/antimatter/css/pure-0.5.0/grids-min.css" type="text/css" rel="stylesheet">
@@ -20,15 +20,19 @@
 <link href="/user/plugins/featherlight/css/featherlight.min.css" type="text/css" rel="stylesheet">
 <link href="/user/plugins/login/css/login.css" type="text/css" rel="stylesheet">
 <link href="/user/themes/antimatter/css/slidebars.min.css" type="text/css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.3/leaflet.css" type="text/css" rel="stylesheet">
+<style>
+div#map {height: 180px;}
+</style>
 
 
-                                                
-    <script src="/system/assets/jquery/jquery-2.x.min.js"></script>
+                                            <script src="/system/assets/jquery/jquery-2.x.min.js"></script>
 <script src="/user/themes/antimatter/js/modernizr.custom.71422.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.6/cookieconsent.min.js"></script>
 <script src="/user/plugins/featherlight/js/featherlight.min.js"></script>
 <script src="/user/themes/antimatter/js/antimatter.js"></script>
 <script src="/user/themes/antimatter/js/slidebars.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.3/leaflet.js"></script>
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -37,6 +41,15 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-123365334-1', 'auto');
 ga('set', 'forceSSL', true);
 ga('send', 'pageview');
+</script>
+<script>
+$(document).ready(function() {
+    var map = L.map('map').setView([53.739124,-0.332846], 16);
+    var marker = L.marker([53.739124,-0.332846]).addTo(map);
+    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+        attribution: 'OpenStreetMap'
+    }).addTo(map);
+});
 </script>
 <script>
 window.addEventListener("load", function(){
@@ -76,16 +89,16 @@ $(document).ready(function(){
 
 
 </head>
-<body id="top" class="modular header-image fullwidth">
+<body id="top" class="">
     <div id="sb-site">
                 <header id="header">
             <div id="logo">
                 <h3><a href="/">Connected Humber</a></h3>
             </div>
             <div id="navbar">
-                                                                            
+                                                                
 <ul class="navigation">
-                                    <li class="active">
+                                    <li class="">
                 <a href="/">
                                         Home
                 </a>
@@ -105,7 +118,7 @@ $(document).ready(function(){
                                         About Us
                 </a>
             </li>
-                                <li class="">
+                                <li class="active">
                 <a href="/meetups">
                                         Meetups
                 </a>
@@ -122,58 +135,21 @@ $(document).ready(function(){
         </li>
         </ul>
 
-                
-                    <span class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars"></span>
+                                <span class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars"></span>
             </div>
         </header>
         
         
                 <section id="body" class="">
-                
-            <div id="top"></div>
-        	<div class="modular-row showcase flush-top" style="background-image: url(/images/5/2/9/4/4/52944920d7ec63943041ae5bb04569bb2feeaa20-2260825040c1313b5057b.jpeg);">
-    <h1>Together</h1>
-<h2>We're building an <strong>open</strong> IoT network for the Humber region</h2>
-
-    
+            	<h3>Meetups</h3>
+<p>Find us over at C4DI on the Fruit Market development in Hull. 31-38 Queen Street, HU1 1UU.</p>
+<div id="map"></div>
+<h4>Thursday Meetup</h4>
+<p>We meet on the <strong>first and third Thursday</strong> of each month 6pm to 8pm at C4DI.  Work on shared developments, hear what others are doing, catch up with the latest IoT news and get help with your own projects.  A forum for discussion about any Smart City or IoT topic.  Everyone welcome (free).</p>
+<div style="text-align: center;">
+<p><img alt="Workshop" src="/images/9/3/1/3/3/931331befe40fd7d16514ebc234423bd00dc71a8-workshop.jpeg" /></p>
 </div>
-
-            <div id="highlights"></div>
-        <div class="modular-row features big">
-    
-    <div class="feature-items">
-               <div class="feature">
-                        <i class="fa fa-fw fa-wifi"></i>
-            <div class="feature-content icon-offset">
-                                    <h4>Network</h4>
-                                    <p>Our <a href="network">open network</a> serves the Hull and Humber region and supports IoT devices using the LoRaWAN protocol.</p>
-                        </div>
-        </div>
-               <div class="feature">
-                        <i class="fa fa-fw fa-clipboard"></i>
-            <div class="feature-content icon-offset">
-                                    <h4>Projects</h4>
-                                    <p>We're working on <a href="projects">IoT projects</a> for the benefit of the region. Our network enables anyone to connect a device and start collecting data.</p>
-                        </div>
-        </div>
-               <div class="feature">
-                        <i class="fa fa-fw fa-comments"></i>
-            <div class="feature-content icon-offset">
-                                    <h4>Meetups</h4>
-                                    <p>We meet over at C4DI in Hull. <a href="meetups">Get together</a> with fellow hackers, tinkerers and entrepreneurs. </p>
-                        </div>
-        </div>
-               <div class="feature">
-                        <i class="fa fa-fw fa-users"></i>
-            <div class="feature-content icon-offset">
-                                    <h4>Partners</h4>
-                                    <p>We can't do this thing all by ourselves. <a href="partners">Our partners</a> help us to make the magic happen. </p>
-                        </div>
-        </div>
-        </div>
-</div>
-
-            </section>
+        </section>
         
                 <footer id="footer">
             <div class="totop">
@@ -186,7 +162,7 @@ $(document).ready(function(){
             <div id="panel">
             
 <ul class="navigation">
-                                    <li class="active">
+                                    <li class="">
                 <a href="/">
                                         Home
                 </a>
@@ -206,7 +182,7 @@ $(document).ready(function(){
                                         About Us
                 </a>
             </li>
-                                <li class="">
+                                <li class="active">
                 <a href="/meetups">
                                         Meetups
                 </a>
@@ -225,7 +201,7 @@ $(document).ready(function(){
 
             </div>
         </div>
-                    
+                
         <script>
         $(function () {
             $(document).ready(function() {
@@ -236,6 +212,5 @@ $(document).ready(function(){
             });
         });
         </script>
-    
     </body>
 </html>

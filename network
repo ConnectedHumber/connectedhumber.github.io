@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Connected Humber | Connected Humber</title>
+    <title>Network | Connected Humber</title>
     <meta name="generator" content="GravCMS" />
 <meta name="description" content="Building an open IoT network for the Humber region" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="icon" type="image/png" href="/user/themes/antimatter/images/favicon.png" />
-    <link rel="canonical" href="https://www.connectedhumber.org" />
+    <link rel="canonical" href="https://www.connectedhumber.org/network" />
 
                                                     
                         <link href="/user/themes/antimatter/css/pure-0.5.0/grids-min.css" type="text/css" rel="stylesheet">
@@ -22,8 +22,7 @@
 <link href="/user/themes/antimatter/css/slidebars.min.css" type="text/css" rel="stylesheet">
 
 
-                                                
-    <script src="/system/assets/jquery/jquery-2.x.min.js"></script>
+                                            <script src="/system/assets/jquery/jquery-2.x.min.js"></script>
 <script src="/user/themes/antimatter/js/modernizr.custom.71422.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.6/cookieconsent.min.js"></script>
 <script src="/user/plugins/featherlight/js/featherlight.min.js"></script>
@@ -76,21 +75,21 @@ $(document).ready(function(){
 
 
 </head>
-<body id="top" class="modular header-image fullwidth">
+<body id="top" class="">
     <div id="sb-site">
                 <header id="header">
             <div id="logo">
                 <h3><a href="/">Connected Humber</a></h3>
             </div>
             <div id="navbar">
-                                                                            
+                                                                
 <ul class="navigation">
-                                    <li class="active">
+                                    <li class="">
                 <a href="/">
                                         Home
                 </a>
             </li>
-                                <li class="">
+                                <li class="active">
                 <a href="/network">
                                         Network
                 </a>
@@ -122,58 +121,27 @@ $(document).ready(function(){
         </li>
         </ul>
 
-                
-                    <span class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars"></span>
+                                <span class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars"></span>
             </div>
         </header>
         
         
                 <section id="body" class="">
-                
-            <div id="top"></div>
-        	<div class="modular-row showcase flush-top" style="background-image: url(/images/5/2/9/4/4/52944920d7ec63943041ae5bb04569bb2feeaa20-2260825040c1313b5057b.jpeg);">
-    <h1>Together</h1>
-<h2>We're building an <strong>open</strong> IoT network for the Humber region</h2>
-
-    
+            	<h3>Our Network</h3>
+<p>We are part of The Things Network (TTN). An open, distributed network for the Internet of Things (IoT). TTN is built by communities, each community building the network around a particular geographic area. We operate <a href="https://www.thethingsnetwork.org/community/hull/">TTN gateways in the Hull and Humber region</a>.</p>
+<blockquote>
+<p>The Things Network is building a network for the Internet of Things by creating abundant data connectivity, so applications and businesses can flourish. The technology we use is called LoRaWAN and it allows for things to talk to the internet without 3G or WiFi. So no WiFi codes and no mobile subscriptions. It features low battery usage, long range and low bandwidth. Perfect for the internet of things.</p>
+</blockquote>
+<h4>How Does it Work?</h4>
+<p>LoRaWAN is delivered over the unlicenced spectrum in the UK. This means that anybody can operate a <a href="https://www.thethingsnetwork.org/docs/gateways/">gateway</a> without having to first get a licence. LoRaWAN is extremely efficient, allowing a line of sight range of some 15KM and enabling IoT devices to consume so little power that in some circumstances battery life can be measured in years. </p>
+<div style="text-align: center;">
+<p><img alt="Working" src="/images/b/a/3/3/2/ba3324648e0a3b912f9bd74fb6eb737c3d62ac63-pi.jpeg" /></p>
 </div>
-
-            <div id="highlights"></div>
-        <div class="modular-row features big">
-    
-    <div class="feature-items">
-               <div class="feature">
-                        <i class="fa fa-fw fa-wifi"></i>
-            <div class="feature-content icon-offset">
-                                    <h4>Network</h4>
-                                    <p>Our <a href="network">open network</a> serves the Hull and Humber region and supports IoT devices using the LoRaWAN protocol.</p>
-                        </div>
-        </div>
-               <div class="feature">
-                        <i class="fa fa-fw fa-clipboard"></i>
-            <div class="feature-content icon-offset">
-                                    <h4>Projects</h4>
-                                    <p>We're working on <a href="projects">IoT projects</a> for the benefit of the region. Our network enables anyone to connect a device and start collecting data.</p>
-                        </div>
-        </div>
-               <div class="feature">
-                        <i class="fa fa-fw fa-comments"></i>
-            <div class="feature-content icon-offset">
-                                    <h4>Meetups</h4>
-                                    <p>We meet over at C4DI in Hull. <a href="meetups">Get together</a> with fellow hackers, tinkerers and entrepreneurs. </p>
-                        </div>
-        </div>
-               <div class="feature">
-                        <i class="fa fa-fw fa-users"></i>
-            <div class="feature-content icon-offset">
-                                    <h4>Partners</h4>
-                                    <p>We can't do this thing all by ourselves. <a href="partners">Our partners</a> help us to make the magic happen. </p>
-                        </div>
-        </div>
-        </div>
-</div>
-
-            </section>
+<p>A gateway works like a bridge between an <a href="https://www.thethingsnetwork.org/docs/devices/">IoT device (or node)</a> and the TTN itself. On one side a gateway uses a radio to talk to LoRaWAN devices over the airwaves, and on the other side the gateway connects to the Internet via WiFi, ethernet or 4G. The gateway passes the messages it receives via its LoRaWAN interface to the TTN by using its Internet interface. In that way if facilitates the passing of messages to and from the Internet for IoT devices. </p>
+<h4>Accessing the Network</h4>
+<p>Connected Humber and TTN are open organisations. Anyone can join and operate either a gateway or a node. If you'd like to operate a gateway for us, visit the <a href="https://www.thethingsnetwork.org/community/hull/">Hull and Humber region TTN community</a> and hit the 'join our community' button. From there you'll be prompted to create an account. Once accepted you'll be able to see the 'Add a gateway' button and you're then on track to extend our coverage in the region. You don't need to be a member of our community to join a node to the network, but you will need a TTN account. We would however urge you to join the community whether or not you intend to run a gateway for us, everyone is welcome.</p>
+<p>The best way to get started is to visit a <a href="/meetups">meetup</a>. We hold these regularly, and there you'll learn everything you need to know about gateways, nodes and how to stitch all of this together. We also run <a href="/projects">projects</a> that you can get involved in right now. We look forward to meeting you.</p>
+        </section>
         
                 <footer id="footer">
             <div class="totop">
@@ -186,12 +154,12 @@ $(document).ready(function(){
             <div id="panel">
             
 <ul class="navigation">
-                                    <li class="active">
+                                    <li class="">
                 <a href="/">
                                         Home
                 </a>
             </li>
-                                <li class="">
+                                <li class="active">
                 <a href="/network">
                                         Network
                 </a>
@@ -225,7 +193,7 @@ $(document).ready(function(){
 
             </div>
         </div>
-                    
+                
         <script>
         $(function () {
             $(document).ready(function() {
@@ -236,6 +204,5 @@ $(document).ready(function(){
             });
         });
         </script>
-    
     </body>
 </html>

@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Connected Humber | Connected Humber</title>
+    <title>Projects | Connected Humber</title>
     <meta name="generator" content="GravCMS" />
 <meta name="description" content="Building an open IoT network for the Humber region" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="icon" type="image/png" href="/user/themes/antimatter/images/favicon.png" />
-    <link rel="canonical" href="https://www.connectedhumber.org" />
+    <link rel="canonical" href="https://www.connectedhumber.org/projects" />
 
                                                     
                         <link href="/user/themes/antimatter/css/pure-0.5.0/grids-min.css" type="text/css" rel="stylesheet">
@@ -22,8 +22,7 @@
 <link href="/user/themes/antimatter/css/slidebars.min.css" type="text/css" rel="stylesheet">
 
 
-                                                
-    <script src="/system/assets/jquery/jquery-2.x.min.js"></script>
+                                            <script src="/system/assets/jquery/jquery-2.x.min.js"></script>
 <script src="/user/themes/antimatter/js/modernizr.custom.71422.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.6/cookieconsent.min.js"></script>
 <script src="/user/plugins/featherlight/js/featherlight.min.js"></script>
@@ -76,16 +75,16 @@ $(document).ready(function(){
 
 
 </head>
-<body id="top" class="modular header-image fullwidth">
+<body id="top" class="">
     <div id="sb-site">
                 <header id="header">
             <div id="logo">
                 <h3><a href="/">Connected Humber</a></h3>
             </div>
             <div id="navbar">
-                                                                            
+                                                                
 <ul class="navigation">
-                                    <li class="active">
+                                    <li class="">
                 <a href="/">
                                         Home
                 </a>
@@ -95,7 +94,7 @@ $(document).ready(function(){
                                         Network
                 </a>
             </li>
-                                <li class="">
+                                <li class="active">
                 <a href="/projects">
                                         Projects
                 </a>
@@ -122,58 +121,20 @@ $(document).ready(function(){
         </li>
         </ul>
 
-                
-                    <span class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars"></span>
+                                <span class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars"></span>
             </div>
         </header>
         
         
                 <section id="body" class="">
-                
-            <div id="top"></div>
-        	<div class="modular-row showcase flush-top" style="background-image: url(/images/5/2/9/4/4/52944920d7ec63943041ae5bb04569bb2feeaa20-2260825040c1313b5057b.jpeg);">
-    <h1>Together</h1>
-<h2>We're building an <strong>open</strong> IoT network for the Humber region</h2>
-
-    
-</div>
-
-            <div id="highlights"></div>
-        <div class="modular-row features big">
-    
-    <div class="feature-items">
-               <div class="feature">
-                        <i class="fa fa-fw fa-wifi"></i>
-            <div class="feature-content icon-offset">
-                                    <h4>Network</h4>
-                                    <p>Our <a href="network">open network</a> serves the Hull and Humber region and supports IoT devices using the LoRaWAN protocol.</p>
-                        </div>
-        </div>
-               <div class="feature">
-                        <i class="fa fa-fw fa-clipboard"></i>
-            <div class="feature-content icon-offset">
-                                    <h4>Projects</h4>
-                                    <p>We're working on <a href="projects">IoT projects</a> for the benefit of the region. Our network enables anyone to connect a device and start collecting data.</p>
-                        </div>
-        </div>
-               <div class="feature">
-                        <i class="fa fa-fw fa-comments"></i>
-            <div class="feature-content icon-offset">
-                                    <h4>Meetups</h4>
-                                    <p>We meet over at C4DI in Hull. <a href="meetups">Get together</a> with fellow hackers, tinkerers and entrepreneurs. </p>
-                        </div>
-        </div>
-               <div class="feature">
-                        <i class="fa fa-fw fa-users"></i>
-            <div class="feature-content icon-offset">
-                                    <h4>Partners</h4>
-                                    <p>We can't do this thing all by ourselves. <a href="partners">Our partners</a> help us to make the magic happen. </p>
-                        </div>
-        </div>
-        </div>
-</div>
-
-            </section>
+            	<h3>Monitair</h3>
+<p>Our first project, monitair, involves the collection of detailed data on air quality in the Hull urban area using emerging low cost IoT technologies. The goal is to collect air quality data from at least 100 devices installed around the city, and to make this data available to the public through an open database and website. We intend to provide this information to help citizens make choices around their lifestyle including their own contribution to pollution. Our aim is to improve both the environment and health of people living and working in the city area.</p>
+<p>Connected Humber is working to improve the lives of the people who live, visit and work within the City using IoT - we believe this is the essence of Smart Cities. Air quality is the first of what is hoped will be several major initiatives.</p>
+<h5>What are the Health Concerns?</h5>
+<p>The respiratory disease COPD causes 30,000 deaths a year in the UK - that works out as around 160 per year in Hull.  It is known that small particles in the air can cause damage to the lungs and that poor air quality is a factor in the level of COPD. Asthma and COPD are the two most common lung diseases and the prevalence of childhood asthma in the UK is amongst the highest in the world.</p>
+<h5>How Will This Work?</h5>
+<p>We have designed a low cost air quality sensor and would like to see at least 100 of these installed in our area. These will measure the level of particles in the air every 15 minutes and send the data to a central point. The data from all the devices will be stored and available to anyone to analyse (Open Data). We have built an <a href="https://aq.connectedhumber.org">air quality website</a> to visualise data from sensors which anybody can access, and we encourage local citizens to add data from their own sensors to it. A sensor device will cost less than £75 and will be available as a kit, or you can <a href="/meetups">come along to a workshop</a> where groups will build them together.  <a href="/partners">We are looking for sponsors</a> to bring the cost down further.</p>
+        </section>
         
                 <footer id="footer">
             <div class="totop">
@@ -186,7 +147,7 @@ $(document).ready(function(){
             <div id="panel">
             
 <ul class="navigation">
-                                    <li class="active">
+                                    <li class="">
                 <a href="/">
                                         Home
                 </a>
@@ -196,7 +157,7 @@ $(document).ready(function(){
                                         Network
                 </a>
             </li>
-                                <li class="">
+                                <li class="active">
                 <a href="/projects">
                                         Projects
                 </a>
@@ -225,7 +186,7 @@ $(document).ready(function(){
 
             </div>
         </div>
-                    
+                
         <script>
         $(function () {
             $(document).ready(function() {
@@ -236,6 +197,5 @@ $(document).ready(function(){
             });
         });
         </script>
-    
     </body>
 </html>

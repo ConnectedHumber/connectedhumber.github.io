@@ -2,18 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Connected Humber | Connected Humber</title>
+    <title>About Us | Connected Humber</title>
     <meta name="generator" content="GravCMS" />
 <meta name="description" content="Building an open IoT network for the Humber region" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="icon" type="image/png" href="/user/themes/antimatter/images/favicon.png" />
-    <link rel="canonical" href="https://www.connectedhumber.org" />
+    <link rel="canonical" href="https://www.connectedhumber.org/about-us" />
 
                                                     
                         <link href="/user/themes/antimatter/css/pure-0.5.0/grids-min.css" type="text/css" rel="stylesheet">
 <link href="/user/themes/antimatter/css-compiled/nucleus.css" type="text/css" rel="stylesheet">
 <link href="/user/themes/antimatter/css-compiled/template.css" type="text/css" rel="stylesheet">
 <link href="/user/themes/antimatter/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" type="text/css" rel="stylesheet">
 <link href="/user/plugins/breadcrumbs/css/breadcrumbs.css" type="text/css" rel="stylesheet">
 <link href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.6/cookieconsent.min.css" type="text/css" rel="stylesheet">
 <link href="/user/plugins/form/assets/form-styles.css" type="text/css" rel="stylesheet">
@@ -22,8 +23,7 @@
 <link href="/user/themes/antimatter/css/slidebars.min.css" type="text/css" rel="stylesheet">
 
 
-                                                
-    <script src="/system/assets/jquery/jquery-2.x.min.js"></script>
+                                            <script src="/system/assets/jquery/jquery-2.x.min.js"></script>
 <script src="/user/themes/antimatter/js/modernizr.custom.71422.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.6/cookieconsent.min.js"></script>
 <script src="/user/plugins/featherlight/js/featherlight.min.js"></script>
@@ -76,16 +76,16 @@ $(document).ready(function(){
 
 
 </head>
-<body id="top" class="modular header-image fullwidth">
+<body id="top" class="">
     <div id="sb-site">
                 <header id="header">
             <div id="logo">
                 <h3><a href="/">Connected Humber</a></h3>
             </div>
             <div id="navbar">
-                                                                            
+                                                                
 <ul class="navigation">
-                                    <li class="active">
+                                    <li class="">
                 <a href="/">
                                         Home
                 </a>
@@ -100,7 +100,7 @@ $(document).ready(function(){
                                         Projects
                 </a>
             </li>
-                                <li class="">
+                                <li class="active">
                 <a href="/about-us">
                                         About Us
                 </a>
@@ -122,58 +122,38 @@ $(document).ready(function(){
         </li>
         </ul>
 
-                
-                    <span class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars"></span>
+                                <span class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars"></span>
             </div>
         </header>
         
         
                 <section id="body" class="">
-                
-            <div id="top"></div>
-        	<div class="modular-row showcase flush-top" style="background-image: url(/images/5/2/9/4/4/52944920d7ec63943041ae5bb04569bb2feeaa20-2260825040c1313b5057b.jpeg);">
-    <h1>Together</h1>
-<h2>We're building an <strong>open</strong> IoT network for the Humber region</h2>
-
-    
+            	<h3>What is Connected Humber?</h3>
+<p>We’re a group of tech-enthusiasts, engineers, hackers and other interested parties. Our members include students and lecturers, retirees and employees, people from the public and private sectors, those working in tech, those who would like to, and those for who tech is a hobby. What joins us together is a collective interest in new technology and a belief that we can use our skills and experience to deliver meaningful change for our region.</p>
+<div style="text-align: center;">
+<p><img alt="Solder" src="/images/0/0/6/6/1/0066137b8f632e181b5ecd25992f1f4204d9ef97-solder.jpeg" /></p>
 </div>
-
-            <div id="highlights"></div>
-        <div class="modular-row features big">
-    
-    <div class="feature-items">
-               <div class="feature">
-                        <i class="fa fa-fw fa-wifi"></i>
-            <div class="feature-content icon-offset">
-                                    <h4>Network</h4>
-                                    <p>Our <a href="network">open network</a> serves the Hull and Humber region and supports IoT devices using the LoRaWAN protocol.</p>
-                        </div>
-        </div>
-               <div class="feature">
-                        <i class="fa fa-fw fa-clipboard"></i>
-            <div class="feature-content icon-offset">
-                                    <h4>Projects</h4>
-                                    <p>We're working on <a href="projects">IoT projects</a> for the benefit of the region. Our network enables anyone to connect a device and start collecting data.</p>
-                        </div>
-        </div>
-               <div class="feature">
-                        <i class="fa fa-fw fa-comments"></i>
-            <div class="feature-content icon-offset">
-                                    <h4>Meetups</h4>
-                                    <p>We meet over at C4DI in Hull. <a href="meetups">Get together</a> with fellow hackers, tinkerers and entrepreneurs. </p>
-                        </div>
-        </div>
-               <div class="feature">
-                        <i class="fa fa-fw fa-users"></i>
-            <div class="feature-content icon-offset">
-                                    <h4>Partners</h4>
-                                    <p>We can't do this thing all by ourselves. <a href="partners">Our partners</a> help us to make the magic happen. </p>
-                        </div>
-        </div>
-        </div>
-</div>
-
-            </section>
+<p>We have four core objectives:</p>
+<ul>
+<li>Explore and pioneer emerging technologies such as LoRa</li>
+<li>Build demonstration applications that deliver real value and help the wider community understand the potential that technology offers</li>
+<li>Focus local skills and energy into a concentrated effort to achieve more</li>
+<li>Provide training and development for technical people wishing to build skills in the emerging technologies</li>
+</ul>
+<p>Our objectives translate into practical activies such as:</p>
+<ul>
+<li>Building an <a href="/network">open access IoT network</a> for the Hull and Humber region</li>
+<li>Engaging in exciting new <a href="/projects">projects</a> like air-quality monitoring </li>
+<li>Holding <a href="/meetups">meetups</a> to get like minded people together</li>
+<li>Building relationships with <a href="/partners">partners</a> who can help us to deliver our aims and objectives</li>
+</ul>
+<h3>Get in Touch</h3>
+<p>The easiest way to make contact with us is via our <a href="https://forum.connectedhumber.org">discussion forum</a>. We also hold regular meetings at C4DI on the Fruit Market development in Hull. Why not <a href="/meetups">come along</a>?</p>
+<p><strong>Forum</strong> <a href="https://forum.connectedhumber.org">Connected Humber Community</a><br />
+<strong>Email</strong> <a href="mailto:&#105;&#110;&#102;&#111;&#64;&#99;&#111;&#110;&#110;&#101;&#99;&#116;&#101;&#100;&#104;&#117;&#109;&#98;&#101;&#114;&#46;&#111;&#114;&#103;">&#105;&#110;&#102;&#111;&#64;&#99;&#111;&#110;&#110;&#101;&#99;&#116;&#101;&#100;&#104;&#117;&#109;&#98;&#101;&#114;&#46;&#111;&#114;&#103;</a><br />
+<strong>Twitter</strong> <a href="https://twitter.com/connecthumber">@connecthumber</a><br />
+<strong>Address</strong> Connected Humber CIC, C4DI @TheDock, 31-38 Queen Street, Hull, HU1 1UU</p>
+        </section>
         
                 <footer id="footer">
             <div class="totop">
@@ -186,7 +166,7 @@ $(document).ready(function(){
             <div id="panel">
             
 <ul class="navigation">
-                                    <li class="active">
+                                    <li class="">
                 <a href="/">
                                         Home
                 </a>
@@ -201,7 +181,7 @@ $(document).ready(function(){
                                         Projects
                 </a>
             </li>
-                                <li class="">
+                                <li class="active">
                 <a href="/about-us">
                                         About Us
                 </a>
@@ -225,7 +205,7 @@ $(document).ready(function(){
 
             </div>
         </div>
-                    
+                
         <script>
         $(function () {
             $(document).ready(function() {
@@ -236,6 +216,5 @@ $(document).ready(function(){
             });
         });
         </script>
-    
     </body>
 </html>

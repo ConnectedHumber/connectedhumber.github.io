@@ -2,18 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Connected Humber | Connected Humber</title>
+    <title>Partners | Connected Humber</title>
     <meta name="generator" content="GravCMS" />
 <meta name="description" content="Building an open IoT network for the Humber region" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="icon" type="image/png" href="/user/themes/antimatter/images/favicon.png" />
-    <link rel="canonical" href="https://www.connectedhumber.org" />
+    <link rel="canonical" href="https://www.connectedhumber.org/partners" />
 
                                                     
                         <link href="/user/themes/antimatter/css/pure-0.5.0/grids-min.css" type="text/css" rel="stylesheet">
 <link href="/user/themes/antimatter/css-compiled/nucleus.css" type="text/css" rel="stylesheet">
 <link href="/user/themes/antimatter/css-compiled/template.css" type="text/css" rel="stylesheet">
 <link href="/user/themes/antimatter/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" type="text/css" rel="stylesheet">
 <link href="/user/plugins/breadcrumbs/css/breadcrumbs.css" type="text/css" rel="stylesheet">
 <link href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.6/cookieconsent.min.css" type="text/css" rel="stylesheet">
 <link href="/user/plugins/form/assets/form-styles.css" type="text/css" rel="stylesheet">
@@ -22,8 +23,7 @@
 <link href="/user/themes/antimatter/css/slidebars.min.css" type="text/css" rel="stylesheet">
 
 
-                                                
-    <script src="/system/assets/jquery/jquery-2.x.min.js"></script>
+                                            <script src="/system/assets/jquery/jquery-2.x.min.js"></script>
 <script src="/user/themes/antimatter/js/modernizr.custom.71422.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.6/cookieconsent.min.js"></script>
 <script src="/user/plugins/featherlight/js/featherlight.min.js"></script>
@@ -76,16 +76,16 @@ $(document).ready(function(){
 
 
 </head>
-<body id="top" class="modular header-image fullwidth">
+<body id="top" class="">
     <div id="sb-site">
                 <header id="header">
             <div id="logo">
                 <h3><a href="/">Connected Humber</a></h3>
             </div>
             <div id="navbar">
-                                                                            
+                                                                
 <ul class="navigation">
-                                    <li class="active">
+                                    <li class="">
                 <a href="/">
                                         Home
                 </a>
@@ -110,7 +110,7 @@ $(document).ready(function(){
                                         Meetups
                 </a>
             </li>
-                                <li class="">
+                                <li class="active">
                 <a href="/partners">
                                         Partners
                 </a>
@@ -122,58 +122,22 @@ $(document).ready(function(){
         </li>
         </ul>
 
-                
-                    <span class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars"></span>
+                                <span class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars"></span>
             </div>
         </header>
         
         
                 <section id="body" class="">
-                
-            <div id="top"></div>
-        	<div class="modular-row showcase flush-top" style="background-image: url(/images/5/2/9/4/4/52944920d7ec63943041ae5bb04569bb2feeaa20-2260825040c1313b5057b.jpeg);">
-    <h1>Together</h1>
-<h2>We're building an <strong>open</strong> IoT network for the Humber region</h2>
-
-    
+            	<h3>Partners</h3>
+<p>We're working hard to bring about change in our community but we can't do it alone. We work with various partners who help us with resources, finances and skills.</p>
+<div style="text-align: center;">
+<p><img alt="Working" src="/images/4/b/f/2/3/4bf2366d6d996a3778a0ab04bebfe618543ce333-people.jpeg" /></p>
 </div>
-
-            <div id="highlights"></div>
-        <div class="modular-row features big">
-    
-    <div class="feature-items">
-               <div class="feature">
-                        <i class="fa fa-fw fa-wifi"></i>
-            <div class="feature-content icon-offset">
-                                    <h4>Network</h4>
-                                    <p>Our <a href="network">open network</a> serves the Hull and Humber region and supports IoT devices using the LoRaWAN protocol.</p>
-                        </div>
-        </div>
-               <div class="feature">
-                        <i class="fa fa-fw fa-clipboard"></i>
-            <div class="feature-content icon-offset">
-                                    <h4>Projects</h4>
-                                    <p>We're working on <a href="projects">IoT projects</a> for the benefit of the region. Our network enables anyone to connect a device and start collecting data.</p>
-                        </div>
-        </div>
-               <div class="feature">
-                        <i class="fa fa-fw fa-comments"></i>
-            <div class="feature-content icon-offset">
-                                    <h4>Meetups</h4>
-                                    <p>We meet over at C4DI in Hull. <a href="meetups">Get together</a> with fellow hackers, tinkerers and entrepreneurs. </p>
-                        </div>
-        </div>
-               <div class="feature">
-                        <i class="fa fa-fw fa-users"></i>
-            <div class="feature-content icon-offset">
-                                    <h4>Partners</h4>
-                                    <p>We can't do this thing all by ourselves. <a href="partners">Our partners</a> help us to make the magic happen. </p>
-                        </div>
-        </div>
-        </div>
-</div>
-
-            </section>
+<p><strong>Hull City Council</strong> (HCC) and C4DI have been working together to nurture a community led exploration of how rapid and real improvements can be delivered. Early in 2018 C4DI organised a Smart City Kickoff event and HCC provided support and encouragement.  From this emerged the Connected Humber group. HCC has also assisted by purchasing 18 Things Network gateways to kickstart a city wide public LoRa network. </p>
+<p><strong>C4DI</strong> organised the Smart City kickoff event, is playing a key role in galvanising the technical community behind this programme, and is supporting Connected Humber with technology and a physical meeting space. </p>
+<p><strong>Kcom, Connexin</strong> and <strong>Pure Broadband</strong> are supporters and are offering assistance wherever possible. <strong>Pure Broadband</strong> have generously offered free access to their WiFi network for <a href="/network">gateway</a> backhaul. Each have their own proprietary commercial networks but are nevertheless willing to collaborate with Connected Humber in the interests of the community.</p>
+<p>If you would like to help, contact Robin Harris at <strong><a href="mailto:&#114;&#104;&#64;&#99;&#111;&#110;&#110;&#101;&#99;&#116;&#101;&#100;&#104;&#117;&#109;&#98;&#101;&#114;&#46;&#111;&#114;&#103;">&#114;&#104;&#64;&#99;&#111;&#110;&#110;&#101;&#99;&#116;&#101;&#100;&#104;&#117;&#109;&#98;&#101;&#114;&#46;&#111;&#114;&#103;</a></strong></p>
+        </section>
         
                 <footer id="footer">
             <div class="totop">
@@ -186,7 +150,7 @@ $(document).ready(function(){
             <div id="panel">
             
 <ul class="navigation">
-                                    <li class="active">
+                                    <li class="">
                 <a href="/">
                                         Home
                 </a>
@@ -211,7 +175,7 @@ $(document).ready(function(){
                                         Meetups
                 </a>
             </li>
-                                <li class="">
+                                <li class="active">
                 <a href="/partners">
                                         Partners
                 </a>
@@ -225,7 +189,7 @@ $(document).ready(function(){
 
             </div>
         </div>
-                    
+                
         <script>
         $(function () {
             $(document).ready(function() {
@@ -236,6 +200,5 @@ $(document).ready(function(){
             });
         });
         </script>
-    
     </body>
 </html>
